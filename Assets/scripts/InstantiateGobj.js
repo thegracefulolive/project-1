@@ -3,7 +3,7 @@
 public var gObj: GameObject;
 
 function Start () {
-CreateRandom();//code gets run once
+	InvokeRepeating ("CreateRandom", 0, 1);
 }
 
 function CreateRandom() { // create a random number bewteen 2 values
