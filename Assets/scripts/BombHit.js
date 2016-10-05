@@ -3,7 +3,7 @@
 function OnCollisionEnter2D (other: Collision2D){
 if(other.gameObject.CompareTag("Ground")){
 
-		GameData.numGrabbed++;
+		GameData.numMissed++;
 		GameData.DisplayScore();
 		Destroy(gameObject);
 
